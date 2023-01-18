@@ -12,6 +12,7 @@ public:
                 }
             }
         }
+        
         int mx = INT_MAX, ans;
         for(int i=0; i<n; i++) {
             int cnt = 0;

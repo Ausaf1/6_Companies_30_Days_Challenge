@@ -8,6 +8,7 @@ public:
                 seive[i*j] = false;
             }
         }
+        
         vector<int> res,temp;
         int diff = INT_MAX;
         for(int i = left;i <= right;i++){
